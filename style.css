@@ -182,7 +182,8 @@ body{
     }
     h3{
         font-size: 2rem;
-        color: aqua;
+        font-weight: bolder;
+        color: brown;
     }
     h4{
         position: absolute;
