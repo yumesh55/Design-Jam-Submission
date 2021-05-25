@@ -1,0 +1,155 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut</title>
+    <script src="https://kit.fontawesome.com/328f0f4a3f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#special">special</a></li>
+                <li><a href="#Donut">Donut</a></li>
+                <li><a href="#orderNow">order Now</a></li>
+            </ul>
+        </nav>
+        
+   
+    </header>
+
+    <section id="home" class="container-fluid">
+    
+        <div class="row min-vh-100 align-items-center">
+
+            <div class="col-md-8 m1-md-5 text-md-left text-center content">
+                    <h1>A Moments of tasty Donut Surprise</h1>
+                    <h2>Enjoy Every bite</h2>
+                    <p>When you’re here, you’re family Eat Fresh Have it your way</p>
+                    <a href="#special"><button>Get Started</button></a>
+            </div>
+           <div class="video-container">
+               <video src="donut.mp4"  autoplay loop class="vid vid1"></video>
+               <video src="do.mp4"  autoplay loop class="vid vid2"></video>
+           </div>
+
+           <div class="controls">
+               <div class="dots dot1"></div>
+               <div class="dots dot2"></div>
+           </div>
+        </div>
+
+    </section>
+    
+<section id="special" class="container-fluid">
+    <div class="heading text-center">
+        <h1>our <span>special</span></h1>
+        <p>our Donut makes u tempting 
+            a life full of Donut Treat.</p>
+    </div>
+
+    <div class="card-container">
+
+        <div class="card">
+            <img src="image1.jpg" alt="">
+            <p>This Donut makes u creamy</p>
+            <a href="#"><button>Read more</button></a>
+            
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="image2.jpg" alt="">
+        <p>Chocolate Donut</p>
+        <a href="#"><button>Read more</button></a>
+    </div>
+
+    <div class="card">
+        <img src="image3.jpg" alt="">
+        <p>vanilla Donut</p>
+        <a href="#"><button>Read more</button></a>
+    </div>
+
+
+</section>
+
+<section id="orderNow">
+    <div class="heading text-center">
+        <h3><span>order </span>Now<h3>
+    </div>
+
+    <div class="row justify-content-center">
+        <form action="" class="col-md-7">
+
+            <div class="inputbox">
+                <input type="text" required>
+                <h4>Full Name</h4>
+            </div>
+
+            <div class="inputbox">
+                <input type="text" required>
+                <h4>E-mail</h4>
+            </div>
+
+            <div class="inputbox">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <h4>Message</h4>
+            </div>
+
+            <input type="submit" value="send">
+        </form>
+        
+        
+
+    </div>
+
+</section>
+
+<section id="footer" class="container-fluid">
+
+    <div class="row align-items-center">
+
+        <div class="col-md-4 brand">
+            
+
+            <div class="icons">
+                <a href="#" class="fab fa-facebook-square"></a>
+                <a href="#" class="fab fa-twitter-square"></a>
+                <a href="#" class="fab fa-instagram-square"></a>
+            </div>
+        </div>
+
+        <div class="col-md-4 footer-links">
+            <h6>links:</h6>
+            <a href="#Home">Home</a>
+            <a href="#special">special</a>
+            <a href="#orderNow">orderNow</a>
+        </div>
+    </div>
+    <h5>&copy; copyright @2021 by YUMESH</h5>
+</section>
+
+
+
+<script>
+    
+        $('.dot1').click(function(){
+            $('.vid2').css('display','block');
+            $('.vid1').css('display','none');    
+        });
+        $('.dot2').click(function(){
+            $('.vid1').css('display','block');
+            $('.vid2').css('display','none');
+        });
+    
+</script>
+    
+    
+</body>
+</html>

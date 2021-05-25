@@ -1,0 +1,274 @@
+*{
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+#header{
+    width: 100%;
+    position: fixed;
+    top:0; left:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    z-index: 1000;
+    }
+    .fa-hamburger{
+        font-size: 4rem;
+        z-index: 10000;
+        color: yellow;
+        cursor: pointer;
+    }
+
+        ul{
+          display: flex;
+            align-items: center;
+            justify-content: space-around;
+            list-style: none;
+        }
+
+            li{
+                margin-right: 4rem;
+            }
+
+                a{
+                    color: #fff;
+                    font-size: 2rem;
+                    text-decoration: none;
+                }
+#home{
+    background: linear-gradient(0deg, rgba(0,0,0,.6),rgba(0,0,0,.6));
+    position: relative;
+}
+
+    h1{
+        font-size: 5rem;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bolder;
+        text-shadow: .1rem .1rem .3rem #333;
+        color: burlywood;
+        
+    }
+    h2{
+        font-size: 3.5rem;
+        font-family: 'Exo 2', sans-serif;
+        font-weight: bolder;
+        text-shadow: .1rem .1rem .3rem #333;
+        color: cornsilk;
+
+    }
+    p{
+        font-size: 2rem;
+        font-family: 'Exo 2', sans-serif;
+        color:burlywood;
+    }
+   button {
+        border: none;
+        background: #404040;
+        color: #ffffff !important;
+        font-weight: 100;
+        padding: 20px;
+        text-transform: uppercase;
+        border-radius: 6px;
+        display: inline-block;
+        transition: all 0.3s ease 0s;
+    }
+    .video-container{
+        position: absolute;
+        top: 0%; left: 0%;
+        height: 100vh;
+        width: 100%;
+        z-index: -1;
+         }
+         .vid{
+             position: absolute;
+             height: 100vh;
+             width: 100%;
+             object-fit: cover;
+         }
+   .vid1{
+       display: block;
+   }
+   .controls{
+       position: absolute;
+       bottom: 15%; left: 50%;
+       transform: translate(-50%);
+       display: flex;
+
+   }
+    .dots{
+        height: 2rem;
+        width: 2rem;
+        cursor: pointer;
+        background: yellow;
+        margin: 0 2rem;
+    }
+  
+        
+    
+  
+
+    button:hover {
+        color: #404040 !important;
+        font-weight: 700 !important;
+        letter-spacing: 3px;
+        background: none;
+        box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.3s ease 0s;
+    }
+
+    #special{
+        background-image: url("image5.jpg");
+        background-color: #000;
+        background-repeat: no-repeat;
+         background-size: 100%
+
+        
+    }
+
+    h1{
+        color: #fff;
+    }
+    .card-container{
+        width: 30rem;
+        margin: 7rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 30rem;
+        background:white;
+        padding: 1rem;
+        text-align: center;
+        margin: 2rem auto;
+        display: flex;
+       
+    }
+    body{
+        background-color:#333;
+    }
+    
+    span{
+        color: yellow;
+        color: red;
+    }
+   
+    img{
+        height: 50%;
+        width: 100%;
+        object-fit: cover;
+    
+    }
+    #orderNow{
+        min-height: 100vh;
+        width: 100vw;
+        background: url(../donut/image4.jpg)no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    h3{
+        font-size: 2rem;
+        color: aqua;
+    }
+    h4{
+        position: absolute;
+        top: 3rem; left: 7%;
+        color: #000;
+    }
+    form{
+        background:white;
+        padding-top: 2rem;
+        margin: 1rem,2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 2rem #333;
+    }
+    .inputbox{
+        position: relative;
+        text-align: center;
+
+    }
+    input, textarea{
+        outline: none;
+        border: .2rem solid #333;
+        border-radius:  .2rem;
+        margin: 2rem 0;
+        padding: 0 1rem;
+        background: none;
+        height: 4rem;
+        width: 90%;
+        font-size: 2rem;
+    }
+    textarea{
+        padding: 1em;
+        resize: none;
+        height: 20rem  ;
+    }
+    input[type="submit"]{
+        height: 4rem;
+        width: 12rem;
+        margin-bottom: 2rem;
+        margin-left: 4%;
+        background: #333;
+        color: #ffffff;
+
+    }
+    h5{
+        font-size: 2rem;
+        margin: 0;
+        padding: 2rem 0;
+        text-align: center;
+        color: black;
+    }
+    h6{
+        font-size: 2rem;
+        color: black;
+    }
+    .brand{
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .icons{
+        font-size: 2rem;
+        margin: 2rem 1rem;
+        color: red;
+    }
+@media (max-width:768px){
+    
+        .fa-hamburger{
+            display: inline;
+        }
+        ul{
+            position: fixed;
+            top: 0; left: 0;
+            height: 100vh;
+            width: 35rem;
+            background: #000;
+            flex-flow: column;
+            justify-content: center;
+            height: 100%;
+        }
+        li{
+            margin: 2rem 0;
+        }
+    }
+
+  
+ 
+        
+    
+ 
